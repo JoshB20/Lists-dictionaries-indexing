@@ -1,0 +1,19 @@
+# This will be about Lists, dictionaries, indexing, and common data structures.
+
+# This will inform the user to what the simple instrustions will be.
+print("I will give you a list a numbers to choose from.\n")
+print("I would like you to pick a number.\n")
+
+# Here will display these random numbers that have been selected for the user.
+# Using Lists
+list_of_nums = [1, 2, 3, 44, 45, 78,]
+# Here we added the number 80 to the index list
+# The number 80 will be at the very end of the list
+list_of_nums.insert(7, "80")
+
+# Here it will print the list for the user.
+print(list_of_nums)
+
+# Will take user input for the number they had chosen.
+num = input("Please choose your number.")
+print("You had chosen the number: " + num)
